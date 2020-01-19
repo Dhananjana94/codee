@@ -1,5 +1,5 @@
 <?php 
-	require('./authController.php');
+	require('user/controllers/authController.php');
 		//verify if user not logged in
 		// if(!isset($_SESSION['firstname'])){
 		// 	header('location: login.php');

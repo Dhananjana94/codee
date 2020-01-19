@@ -1,5 +1,5 @@
 <?php 
-	require('./authController.php');
+	require('user/controllers/authController.php');
 ?>
 
 <!DOCTYPE html>

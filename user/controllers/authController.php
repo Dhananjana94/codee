@@ -1,7 +1,7 @@
 <?php
 
-include './connection.php';
-require_once './emailController.php';
+include 'connection.php';
+require_once 'user/controllers/emailController.php';
 session_start();
 $con = dbconnection();
 

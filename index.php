@@ -1,5 +1,5 @@
 <?php 
-	require_once './authController.php';
+	require_once 'user/controllers/authController.php';
 
 	//verify the user using token
 	if(isset($_GET['token'])){
